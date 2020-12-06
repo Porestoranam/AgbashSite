@@ -5,4 +5,3 @@ Website: Должен получиться сайт, похожий на https:/
 
 Подробнее в графическом редакторе figma: https://www.figma.com/file/MLDQjMByRS5byZUWlPidIj/Agbash?node-id=0%3A1
 
-На данный момент готова полностью одна страница (MainPage)
