@@ -1,4 +1,4 @@
-#Проект в рамках курса Fullstack МФТИ
+### Проект в рамках курса Fullstack МФТИ
 Website: Должен получиться сайт, похожий на https://eoloperfido.com/portraits
 
 Есть главная страница - MainPage. И несколько разделов - art, biography, contacts ...
