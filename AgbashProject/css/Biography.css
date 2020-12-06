@@ -1,0 +1,127 @@
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'),
+         url('../fonts/lato-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'),
+         url('../fonts/lato-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'),
+         url('../fonts/lato-v17-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v17-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+ html{
+     box-sizing: border-box;
+ } 
+ *, *::before, *:after{
+     box-sizing: inherit;
+ }
+ 
+ body{
+     font-family: 'Lato';
+     font-style:normal;
+     font-size: 16px;
+     line-height: 1.2;
+     font-weight: normal;
+     color: black
+ }
+
+ .wrapper{
+     display: flex;
+ }
+/* content styles */
+
+.content-wrapper{
+    background-color:white;
+    width: 1234px;
+    height: 2000px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 310px;
+}
+
+.biography-header{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.biography-text1{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+
+/* fridge styles */
+.fridge-wrapper{
+    background-color: white;
+    width: 300px;
+    height: 773px;
+    position: fixed;
+}
+
+.header__logo{
+    margin-top: 25px;
+    margin-left: 47px;
+    font-size: 36px;
+    justify-content: space-around;
+    display: flex;
+    width: 115px;
+    height: 85px;
+}
+
+.header-logo-link{
+    text-decoration: none;
+    color: black;
+
+}
+
+.header__list{
+    margin-top: 38px;
+    margin-left: 47px;
+}
+
+.header__item{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.header__link{
+    color: black;
+    text-decoration: none;
+}
+
+.sn__list{
+    margin-left: 47px;
+    display: flex;
+    padding-top: 233px;
+    display: flex;
+}
+/* здесь костыль с логотипами соцсетей - нужно подобрать норм картинки */
+.logo_inst{
+    margin-right: 25px;
+}
+.logo_vk{
+    margin-top: -5px;
+}
+
